@@ -33,15 +33,17 @@
     --ring: 212.7 26.8% 83.9%;
 
     --radius: 0.5rem;
-
   }
 }
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border antialiased;
+  }
+  html {
+    @apply h-full;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply h-full bg-background text-foreground;
   }
 }
