@@ -5,7 +5,7 @@ import { db } from "./_lib/prisma"
 import BarbershopItem from "./_components/barbershop-item"
 import { quickSearchOptions } from "./_constants/search"
 import BookingItem from "./_components/booking-item"
-import Search from "./_components/search"
+// import Search from "./_components/search"
 import Link from "next/link"
 
 const Home = async () => {
@@ -22,13 +22,11 @@ const Home = async () => {
       <Header />
       <div className="p-5">
         {/* TEXTO */}
-        <h2 className="text-xl font-bold">Olá, Felipe!</h2>
-        <p>Segunda-feira, 05 de agosto.</p>
+        <h2 className="text-xl font-bold">Olá, Samuel!</h2>
+        <p>Segunda-feira, 08 de agosto.</p>
 
         {/* BUSCA */}
-        <div className="mt-6">
-          <Search />
-        </div>
+        <div className="mt-6">{/* <Search /> */}</div>
 
         {/* BUSCA RÁPIDA */}
         <div className="mt-6 flex gap-3 overflow-x-scroll [&::-webkit-scrollbar]:hidden">
