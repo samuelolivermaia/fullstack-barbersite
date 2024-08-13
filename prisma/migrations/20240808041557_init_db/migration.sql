@@ -29,7 +29,7 @@ CREATE TABLE "BarbershopService" (
     "name" TEXT NOT NULL,
     "description" TEXT NOT NULL,
     "imageUrl" TEXT NOT NULL,
-    "price" DECIMAL(10,2) NOT NULL,
+    "price" Number(10,2) NOT NULL,
     "barbershopId" TEXT NOT NULL,
 
     CONSTRAINT "BarbershopService_pkey" PRIMARY KEY ("id")
